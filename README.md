@@ -5,7 +5,7 @@
 <img src="extras/graphics/demo.gif" alt="Demo" width="840" align="middle"/>
 
 ## **Table of Contents**
->1. [Introduction](#introduction)
+1. [Introduction](#introduction)
 2. [Implementation](#implementation)
 3. [Dataset](#dataset)
 4. [Pre-trained models](#pre-trained-models)
@@ -17,14 +17,14 @@ The repository presents Tensorflow 2.0 (Keras) implementation of real-time detec
 
 ### Article
 
-> [**Deep Learning for Site Safety: Real-Time Detection of Personal Protective Equipment**](https://authors.elsevier.com/a/1aQ0o3IhXMjOmb) \
+[**Deep Learning for Site Safety: Real-Time Detection of Personal Protective Equipment**](https://authors.elsevier.com/a/1aQ0o3IhXMjOmb) \
 Nipun D. Nath, Amir H. Behzadan, Stephanie G. Paal \
 Automation in Construction 112, pp. 103085
 
 Please cite the article if you use the dataset, model or method(s), or find the article useful in your research. Thank you!
 
 ### LaTeX citation:
->```
+
 @article{Nath2020,
     author  = {Nipun D. Nath and Amir H. Behzadan and Stephanie G. Paal},
     title   = {Deep Learning for Site Safety: Real-Time Detection of Personal Protective Equipment},
@@ -32,12 +32,12 @@ Please cite the article if you use the dataset, model or method(s), or find the 
     volume  = {112},
     year    = {2020},
     pages   = {103085}
-```
+
 
 ## **Implementation**
 
 ### Dependencies
->- `tensorflow 2.0`
+- `tensorflow 2.0`
 - `numpy`
 - `opencv`
 - `matplotlib`
@@ -67,9 +67,9 @@ The paper presents three different approaches for verifying PPE compliance:
 
 <img src="extras/graphics/methods.jpg" alt="Methods/Approaches" width="840" align="middle"/>
 
-**Aproach-1**: YOLO-v3-A1 model detects worker, hat, and vest (three object classes) individually. Next, ML classifiers (Neural Network, Decision Tree) classify each worker as W (wearing no hat or vest), WH (wearing only hat), WV (wearing only vest), or WHV (wearing both hat and vest).
+**Approach-1**: YOLO-v3-A1 model detects worker, hat, and vest (three object classes) individually. Next, ML classifiers (Neural Network, Decision Tree) classify each worker as W (wearing no hat or vest), WH (wearing only hat), WV (wearing only vest), or WHV (wearing both hat and vest).
 
-**Aproach-2**: YOLO-v3-A2 model localizes workers in the input image and directly classifies each detected worker as W, WH, WV, or WHV.
+**Approach-2**: YOLO-v3-A2 model localizes workers in the input image and directly classifies each detected worker as W, WH, WV, or WHV.
 
 **Approach-3**: YOLO-v3-A3 model first detects all workers in the input image and then, a CNN-based classifier model (VGG-16, ResNet-50, Xception) was applied to the cropped worker images to classify the detected worker as W, WH, WV, or WHV.
 
@@ -89,11 +89,13 @@ The paper presents three different approaches for verifying PPE compliance:
 
 Models trained on Pictor-v3 dataset are available on the following links:
 
->- YOLO-v3-A1
+- YOLO-v3-A1
 - YOLO-v3-A2
 - YOLO-v3-A3
 - ML Classifiers (Approach-1)
 - CNN Classifiers (Approach-3)
+
+**@TODO:** Please stay tuned! Links to download the models well be added soon.
 
 ## **Tutorials**
 
