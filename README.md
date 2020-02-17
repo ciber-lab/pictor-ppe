@@ -7,7 +7,7 @@
 ## **Table of Contents**
 1. [Introduction](#introduction)
 2. [Implementation](#implementation)
-3. [Dataset](#dataset)
+3. [Dataset](#dataset) ([download](https://drive.google.com/drive/folders/19uUR6EJPQzMeK0YpsxRm51wMZzDmcsv6?usp=sharing))
 4. [Pre-trained models](#pre-trained-models)
 5. [Tutorials](#tutorials)
 
@@ -59,7 +59,7 @@ The dataset (named **Pictor-v3**) contains 774 crowd-sourced and 698 web-mined i
 
 ### Download the crowd-sourced dataset
 
-**@TODO:** Please stay tuned!
+The crowdsourced images and annotated labels can be found in this [Google Drive folder](https://drive.google.com/drive/folders/19uUR6EJPQzMeK0YpsxRm51wMZzDmcsv6?usp=sharing).
 
 ## **Methods/Approaches**
 
