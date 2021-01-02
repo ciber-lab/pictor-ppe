@@ -51,7 +51,7 @@ def detection(
         # to scale the boxes from grid's unit to actual image's pixel unit
         box_scaling = input_shape_tensor * image_shape_tensor / sized_shape_tensor / grids_shape_tensor
         # to offset the boxes
-        box_offsets = (tf.reduce_max(image_shape_tensor) - image_shape_tensor) / 2.
+        box_offsets = (tf.expand_dims(tf.reduce_max(image_shape_tensor, axis=-1), axis=-1) - image_shape_tensor) / 2.
 
         '''Box geometric properties'''
         '''------------------------'''
