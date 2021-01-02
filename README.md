@@ -8,7 +8,7 @@
 1. [Introduction](#introduction)
 2. [Implementation](#implementation)
 3. [Dataset](#dataset) ([download](https://drive.google.com/drive/folders/19uUR6EJPQzMeK0YpsxRm51wMZzDmcsv6?usp=sharing))
-4. [Pre-trained models](#pre-trained-models)
+4. [Pre-trained models](#pre-trained-models) ([download](https://drive.google.com/drive/folders/13tCdROHnS0c5VibW1VO8pOEj0rXEvvGj?usp=sharing))
 5. [Tutorials](#tutorials)
 
 ## **Introduction**
@@ -43,7 +43,7 @@ Please cite the article if you use the dataset, model or method(s), or find the 
 - `matplotlib`
 - `pandas`
 
-**@TODO:** Please stay tuned! The detailed description of the implementation (training + testing) is coming soon.
+Please follow the [`Detection-Example.ipynb`](https://github.com/nipundebnath/pictor-ppe/blob/master/Detection-Example.ipynb) notebook to test the models.
 
 ## **Dataset**
 
@@ -87,7 +87,7 @@ The paper presents three different approaches for verifying PPE compliance:
 
 ## **Pre-trained Models**
 
-Models trained on Pictor-v3 dataset are available on the following links:
+Models trained on Pictor-v3 dataset are available in the [Google Drive folder](https://drive.google.com/drive/folders/13tCdROHnS0c5VibW1VO8pOEj0rXEvvGj?usp=sharing).
 
 - YOLO-v3-A1
 - YOLO-v3-A2
@@ -95,8 +95,10 @@ Models trained on Pictor-v3 dataset are available on the following links:
 - ML Classifiers (Approach-1)
 - CNN Classifiers (Approach-3)
 
-**@TODO:** Please stay tuned! Links to download the models well be added soon.
-
 ## **Tutorials**
 
-**@TODO:** Please stay tuned! The detailed step-by-step tutorials are coming soon.
+Please follow the notebooks in [tutorials](https://github.com/nipundebnath/pictor-ppe/blob/master/tutorials/) folder to learn more about:
+- building YOLO model from scratch using tensorflow 2.0
+- interpret YOLO output and convert to bounding boxes with class label and confidence score.
+
+**@TODO:** Please stay tuned! More tutorials are coming soon.
