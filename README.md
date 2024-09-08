@@ -59,7 +59,7 @@ The dataset (named **Pictor-v3**) contains 774 crowd-sourced and 698 web-mined i
 
 ### Download the crowd-sourced dataset
 
-The crowdsourced images and annotated labels can be found in this [folder](https://o365coloradoedu-my.sharepoint.com/:f:/r/personal/ambe3060_colorado_edu/Documents/github-ciber-lab/pictor-ppe?csf=1&web=1&e=oPBalr).
+The crowdsourced images and annotated labels can be found in this [folder](https://o365coloradoedu-my.sharepoint.com/:f:/g/personal/ambe3060_colorado_edu/Ek97uSrMWhBAmcLogAl2O1wBHt66FLke4BsBBSzMOnPI8Q?e=zXVugJ).
 
 ## **Methods/Approaches**
 
@@ -87,7 +87,7 @@ The paper presents three different approaches for verifying PPE compliance:
 
 ## **Pre-trained Models**
 
-Models trained on Pictor-v3 dataset are available in the [folder](https://o365coloradoedu-my.sharepoint.com/:f:/r/personal/ambe3060_colorado_edu/Documents/github-ciber-lab/pictor-ppe?csf=1&web=1&e=IIAKKA).
+Models trained on Pictor-v3 dataset are available in the [folder](https://o365coloradoedu-my.sharepoint.com/:f:/g/personal/ambe3060_colorado_edu/EnKlDW4grhVOnJSTxYLz9jgBcYAqBzk-9lq9DQRyn8_ekg?e=HBTHtg).
 
 - YOLO-v3-A1
 - YOLO-v3-A2
