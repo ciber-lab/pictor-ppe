@@ -7,8 +7,8 @@
 ## **Table of Contents**
 1. [Introduction](#introduction)
 2. [Implementation](#implementation)
-3. [Dataset](#dataset) ([download](https://o365coloradoedu-my.sharepoint.com/:f:/r/personal/ambe3060_colorado_edu/Documents/github-ciber-lab/pictor-ppe?csf=1&web=1&e=S0lxVH))
-4. [Pre-trained models](#pre-trained-models) ([download](https://o365coloradoedu-my.sharepoint.com/:f:/r/personal/ambe3060_colorado_edu/Documents/github-ciber-lab/pictor-ppe/Models?csf=1&web=1&e=KUirCq))
+3. [Dataset](#dataset)
+4. [Pre-trained models](#pre-trained-models)
 5. [Tutorials](#tutorials)
 
 ## **Introduction**
@@ -49,7 +49,7 @@ Please follow the [`Detection-Example.ipynb`](https://github.com/nipundebnath/pi
 
 ### Dataset statisctics
 
-The dataset (named **Pictor-v3**) contains 774 crowd-sourced and 698 web-mined images. Crowd-sourced and web-mined images contain 2,496 and 2,230 instances of workers, respectively. A brief statistics of the dataset is shown in the following figure.
+The dataset (named **Pictor-v3**) contains 774 crowd-sourced and 698 web-mined images. Crowd-sourced and web-mined images contain 2,496 and 2,230 instances of workers, respectively. The dataset is available on this [OneDrive folder](https://o365coloradoedu-my.sharepoint.com/:f:/g/personal/ambe3060_colorado_edu/EsiLaSYkGdNHoFcBRx9agQUByGehkQTnz8BxAGVirKEmcg?e=h8dr5S). A brief statistics of the dataset is shown in the following figure.
 
 <img src="extras/graphics/dataset.png" alt="Dataset" width="840" align="middle"/>
 
@@ -59,7 +59,7 @@ The dataset (named **Pictor-v3**) contains 774 crowd-sourced and 698 web-mined i
 
 ### Download the crowd-sourced dataset
 
-The crowdsourced images and annotated labels can be found in this [folder](https://o365coloradoedu-my.sharepoint.com/:f:/g/personal/ambe3060_colorado_edu/Ek97uSrMWhBAmcLogAl2O1wBHt66FLke4BsBBSzMOnPI8Q?e=zXVugJ).
+The crowd-sourced images and annotated labels can be accessed from the corresponding subfolders in the dataset.
 
 ## **Methods/Approaches**
 
@@ -87,7 +87,7 @@ The paper presents three different approaches for verifying PPE compliance:
 
 ## **Pre-trained Models**
 
-Models trained on Pictor-v3 dataset are available in the [folder](https://o365coloradoedu-my.sharepoint.com/:f:/g/personal/ambe3060_colorado_edu/EnKlDW4grhVOnJSTxYLz9jgBcYAqBzk-9lq9DQRyn8_ekg?e=HBTHtg).
+You can download the models trained on Pictor-v3 dataset from the "Models" folder in the dataset.
 
 - YOLO-v3-A1
 - YOLO-v3-A2
