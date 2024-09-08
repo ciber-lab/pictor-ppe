@@ -87,7 +87,7 @@ The paper presents three different approaches for verifying PPE compliance:
 
 ## **Pre-trained Models**
 
-You can download the models trained on Pictor-v3 dataset from the "Models" folder in the dataset.
+You can download the models trained on Pictor-v3 dataset from the "Models" folder in the dataset. These models include:
 
 - YOLO-v3-A1
 - YOLO-v3-A2
