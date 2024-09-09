@@ -49,7 +49,7 @@ Please follow the [`Detection-Example.ipynb`](https://github.com/nipundebnath/pi
 
 ### Dataset statisctics
 
-The dataset (named **Pictor-v3**) contains 774 crowd-sourced and 698 web-mined images. Crowd-sourced and web-mined images contain 2,496 and 2,230 instances of workers, respectively. The dataset is available on this [OneDrive folder](https://o365coloradoedu-my.sharepoint.com/:f:/g/personal/ambe3060_colorado_edu/EsiLaSYkGdNHoFcBRx9agQUByGehkQTnz8BxAGVirKEmcg?e=h8dr5S). A brief statistics of the dataset is shown in the following figure.
+The dataset (named **Pictor-v3**) contains 774 crowd-sourced and 698 web-mined images. Crowd-sourced and web-mined images contain 2,496 and 2,230 instances of workers, respectively. The dataset is available on this [OneDrive folder](https://o365coloradoedu-my.sharepoint.com/:f:/g/personal/ambe3060_colorado_edu/Ep3YS6TFZRZIj7VmFp_tUXMBjgitAfQBVsklUeUZ8scoLA?e=INhnpC). A brief statistics of the dataset is shown in the following figure.
 
 <img src="extras/graphics/dataset.png" alt="Dataset" width="840" align="middle"/>
 
