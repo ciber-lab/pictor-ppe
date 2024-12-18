@@ -17,7 +17,7 @@ The repository presents Tensorflow 2.0 (Keras) implementation of real-time detec
 
 ### Article
 
-[**Deep Learning for Site Safety: Real-Time Detection of Personal Protective Equipment**](https://authors.elsevier.com/a/1aQ0o3IhXMjOmb) \
+[**Deep Learning for Site Safety: Real-Time Detection of Personal Protective Equipment**](https://www.sciencedirect.com/science/article/abs/pii/S0926580519308325)\
 Nipun D. Nath, Amir H. Behzadan, Stephanie G. Paal \
 Automation in Construction 112, pp. 103085
 
